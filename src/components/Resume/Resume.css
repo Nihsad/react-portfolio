@@ -1,5 +1,5 @@
 .resume {
-    max-width: 80vw;
+    max-width: 60vw;
     color: var(--accent);
     background-color: rgba(var(--primary-c), 0.5);
     padding: 10px;

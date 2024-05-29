@@ -29,7 +29,7 @@
     font-size: 16px;
     color: var(--accent);
     line-height: 1.5;
-    max-width: 40vw;
+    max-width: 60vw;
     text-align: justify;
     background-color: rgba(var(--primary-c), 0.5);
     padding: 10px;
