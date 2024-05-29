@@ -1,0 +1,9 @@
+.navigation-links-flex {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    list-style: none;
+    padding: 0;
+    max-width: 60vw;
+    margin: 0 auto;
+  }
+  
