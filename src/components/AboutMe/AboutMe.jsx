@@ -1,5 +1,5 @@
 import './AboutMe.css';
-import avatar from './assets/images/avatar.jpg';
+import avatar from '../../assets/images/avatar.jpg';
 
 const AboutMe = () => {
   return (
