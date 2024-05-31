@@ -1,12 +1,18 @@
+import React from 'react';
 import Project from '../Project/Project';
 import './Portfolio.css';
+
+import codeQuizRecording from '../../assets/images/code-quiz-recording.gif';
+import anythingEventsCalendar from '../../assets/images/anything-events-calendar.png';
+import coffeeOutlet from '../../assets/images/coffee-outlet.png';
+import passwordGeneratorShowcase from '../../assets/images/password-generator-showcase.gif';
 
 const Portfolio = () => {
   // Sample data for projects
   const projects = [
     {
       title: 'Anything Events Calendar',
-      imageUrl: 'src/assets/images/anything-events-calendar.png',
+      imageUrl: anythingEventsCalendar,  // Updated to use the imported image
       deployedUrl: 'https://nihsad.github.io/anything-events-calendar/index.html',
       githubUrl: 'https://github.com/Nihsad/anything-events-calendar',
       description: `
@@ -20,7 +26,7 @@ const Portfolio = () => {
     },
     {
       title: 'Coffee Outlet',
-      imageUrl: 'src/assets/images/coffee-outlet.png',
+      imageUrl: coffeeOutlet,  // Updated to use the imported image
       deployedUrl: 'https://example.com/project2',
       githubUrl: 'https://github.com/Nihsad/coffee-outlet',
       description: `
@@ -34,7 +40,7 @@ const Portfolio = () => {
     },
     {
       title: 'JavaScript Password Generator',
-      imageUrl: 'src/assets/images/password-generator-showcase.gif',
+      imageUrl: passwordGeneratorShowcase,  // Updated to use the imported image
       deployedUrl: 'https://nihsad.github.io/password-generator',
       githubUrl: 'https://github.com/Nihsad/password-generator',
       description: `
@@ -47,7 +53,7 @@ const Portfolio = () => {
     },
     {
       title: 'Code Quiz',
-      imageUrl: 'src/assets/images/code-quiz-recording.gif',
+      imageUrl: codeQuizRecording,  // Updated to use the imported image
       deployedUrl: 'https://nihsad.github.io/code-quiz/',
       githubUrl: 'https://github.com/example/project2',
       description: `
