@@ -9,6 +9,11 @@ import Navigation from './components/Navigation/Navigation.jsx';
 import './App.css';
 
 import backgroundSVG from './assets/images/background.svg';
+import avatar from './assets/images/avatar.jpg';
+import codeQuizRecording from './assets/images/code-quiz-recording.gif';
+import anythingEventsCalendar from './assets/images/anything-events-calendar.png';
+import coffeeOutlet from './assets/images/coffee-outlet.png';
+import passwordGeneratorShowcase from './assets/images/password-generator-showcase.gif';
 
 function App() {
   return (
