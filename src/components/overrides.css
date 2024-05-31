@@ -1,15 +1,13 @@
 * {
     /* VARIABLES */
-    --color-primary: rgba(97, 46, 55, 1);
-    --color-secondary: rgba(163, 86, 72, 1);
-    --color-tertiary: rgba(246, 114, 118, 1);
-    --accent: rgba(255, 192, 127, 1);
-    --accent-2: rgba(255, 207, 153, 1);
+    --color-primary: rgba(47, 62, 70, 1);
+    --color-secondary: rgba(202, 210, 197, 1);
+    --color-tertiary: rgba(132, 169, 140, 1);
 
     /* COLORS FOR CUSTOM OPACITIES */
-    --primary-c: 97, 46, 55;
-    --secondary-c: 163, 86, 72;
-    --tertiary-c: 246, 114, 118;
+    --primary-c: 47, 62, 70;
+    --secondary-c: 202, 210, 197;
+    --tertiary-c: 132, 169, 140;
     --accent-c: 255, 192, 127;
     --accent-2c: 255, 207, 153;
 }

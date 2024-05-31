@@ -5,4 +5,12 @@
     padding: 0;
     margin: 0 auto;
   }
-  
+
+  .navigation-links-flex a {
+    color: var(--color-secondary);
+  }
+
+  .navigation-links-flex a:hover {
+    border-bottom: 1px solid;
+    color: var(--color-tertiary);
+  }

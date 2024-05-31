@@ -6,8 +6,8 @@ const Resume = () => {
       <h2>Resume</h2>
       <div className="resume-info">
         <h3>Morgan Carmichael</h3>
-        <p>equusincorde@gmail.com | 303.653.4474 | Arvada, CO</p>
-        <p>
+        <p className="sub-info">equusincorde@gmail.com | 303.653.4474 | Arvada, CO</p>
+        <p className="info-links">
           <a href="www.linkedin.com/in/morgan-carmichael-a4b420213" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://github.com/Nihsad" target="_blank" rel="noopener noreferrer">GitHub</a>
         </p>
         <h4>Summary</h4>

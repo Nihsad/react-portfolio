@@ -8,7 +8,7 @@
   
   .about-me h2 {
     font-size: 24px;
-    color: var(--accent);
+    color: var(--color-tertiary);
     margin-bottom: 20px;
   }
   
@@ -27,7 +27,7 @@
   
   .bio p {
     font-size: 16px;
-    color: var(--accent);
+    color: var(--color-secondary);
     line-height: 1.5;
     max-width: 60vw;
     text-align: justify;

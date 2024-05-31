@@ -18,7 +18,7 @@ const Portfolio = () => {
         <ul>
           <li>This was the first group project for the Full-Stack Web Development course at the University of Denver.</li>
           <li>An application that allows the user to find art-themed events in their area.</li>
-          <li>Using the Ticketmaster and OpenWeatherMap APIs, Anything Events Calendar is able to search within a specified range of your (also specified) location and provide events in your desired area that match the genre(s) that you\'re also able to select. I was largely responsible for the front-end design, utilizing the Bootstrap CSS Library to create a simple, easy-to-use UI.</li>
+          <li>Using the Ticketmaster and OpenWeatherMap APIs, Anything Events Calendar is able to search within a specified range of your (also specified) location and provide events in your desired area that match the genre(s) that you're also able to select. I was largely responsible for the front-end design, utilizing the Bootstrap CSS Library to create a simple, easy-to-use UI.</li>
           <li><b>Tools/Languages:</b> HTML, CSS, Javascript, Bootstrap CSS Library, TicketMaster API, OpenWeatherMap API</li>
         </ul>
       `

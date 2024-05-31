@@ -16,8 +16,9 @@
   
   .project img {
     max-width: 60%;
-    height: auto;
+    height: 60%;
     border-radius: 8px;
+    background-size: contain;
   }
   
   .project h2 {
@@ -46,7 +47,7 @@
   .project ul {
     padding-left: 20px;
     text-align: justify;
-    color: var(--accent-2);
+    color: var(--color-secondary);
   }
   
   .project li {

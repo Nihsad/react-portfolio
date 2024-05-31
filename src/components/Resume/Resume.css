@@ -1,6 +1,6 @@
 .resume {
     max-width: 60vw;
-    color: var(--accent);
+    color: var(--color-secondary);
     background-color: rgba(var(--primary-c), 0.5);
     padding: 10px;
   }
@@ -12,12 +12,29 @@
 
 .resume a:hover {
     color: var(--color-secondary);
+    border-bottom: 1px solid;
+}
+
+.resume h3 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.sub-info {
+    text-align: center;
+    color: var(--color-secondary);
+    margin-top: 0px;
+}
+
+.info-links {
+    text-align: center;
 }
 
 .resume h4 {
     font-size: 18px;
     text-decoration: underline;
     text-align: center;
+    color: var(--color-tertiary);
 }
 
 .resume h5 {
