@@ -9,6 +9,7 @@ const Contact = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false); // For submission feedback
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -35,7 +36,7 @@ const Contact = () => {
       setErrors(errors);
     } else {
       // Handle form submission
-      console.log(formData);
+      setSubmitted(true);
       // Reset form fields
       setFormData({ name: '', email: '', message: '' });
       setErrors({});
@@ -45,7 +46,8 @@ const Contact = () => {
   return (
     <div className="contact">
       <h2>Contact Me</h2>
-      <form onSubmit={handleSubmit}>
+      <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+        <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
@@ -62,6 +64,7 @@ const Contact = () => {
           {errors.message && <div className="error">{errors.message}</div>}
         </div>
         <button type="submit">Send</button>
+        {submitted && <div className="success">Your message has been sent successfully!</div>}
       </form>
     </div>
   );

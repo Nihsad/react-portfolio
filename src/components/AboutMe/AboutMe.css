@@ -31,7 +31,8 @@
     line-height: 1.5;
     max-width: 60vw;
     text-align: justify;
-    background-color: rgba(var(--primary-c), 0.5);
+    background-color: rgba(var(--primary-c), 0.7);
     padding: 10px;
+    border-radius: 8px;
   }
   
