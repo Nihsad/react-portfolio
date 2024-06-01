@@ -1,16 +1,38 @@
 .navigation-links-flex {
-    display: flex;
-    justify-content: space-between; /* Adjust alignment as needed */
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-  }
+  display: flex;
+  justify-content: space-between; /* Adjust alignment as needed */
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  flex-direction: column; /* Default to column for mobile */
+  align-items: center; /* Center items vertically */
+}
 
-  .navigation-links-flex a {
-    color: var(--color-secondary);
+@media (min-width: 768px) {
+  .navigation-links-flex {
+    flex-direction: row; /* Change to row direction for larger screens */
   }
+}
 
-  .navigation-links-flex a:hover {
-    border-bottom: 1px solid;
-    color: var(--color-tertiary);
+.navigation-links-flex a {
+  color: var(--color-secondary);
+  padding: 8px 16px; /* Add padding for better touch targets */
+  text-decoration: none; /* Remove default underline */
+  display: block; /* Ensure full width for tappable area */
+}
+
+.navigation-links-flex a:hover {
+  border-bottom: 1px solid;
+  color: var(--color-tertiary);
+}
+
+/* Optional: Add some spacing between links for mobile */
+.navigation-links-flex li {
+  margin: 8px 0; /* Vertical spacing for mobile */
+}
+
+@media (min-width: 768px) {
+  .navigation-links-flex li {
+    margin: 0; /* Remove vertical spacing for larger screens */
   }
+}
