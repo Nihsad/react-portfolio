@@ -1,24 +1,36 @@
+.navigation {
+  position: relative;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 16px;
+}
+
 .navigation-links-flex {
   display: flex;
-  justify-content: space-between; /* Adjust alignment as needed */
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   margin: 0 auto;
-  flex-direction: column; /* Default to column for mobile */
-  align-items: center; /* Center items vertically */
+  flex-direction: column;
+  align-items: center;
+  display: none;
 }
 
-@media (min-width: 768px) {
-  .navigation-links-flex {
-    flex-direction: row; /* Change to row direction for larger screens */
-  }
+.navigation-links-flex.open {
+  display: flex;
 }
 
 .navigation-links-flex a {
   color: var(--color-secondary);
-  padding: 8px 16px; /* Add padding for better touch targets */
-  text-decoration: none; /* Remove default underline */
-  display: block; /* Ensure full width for tappable area */
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .navigation-links-flex a:hover {
@@ -26,13 +38,35 @@
   color: var(--color-tertiary);
 }
 
-/* Optional: Add some spacing between links for mobile */
 .navigation-links-flex li {
-  margin: 8px 0; /* Vertical spacing for mobile */
+  margin: 8px 0;
 }
 
 @media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navigation-links-flex {
+    flex-direction: row;
+    display: flex;
+  }
+
   .navigation-links-flex li {
-    margin: 0; /* Remove vertical spacing for larger screens */
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .hamburger {
+    display: block;
+  }
+
+  .navigation-links-flex {
+    display: none;
+  }
+
+  .navigation-links-flex.open {
+    display: flex;
   }
 }
