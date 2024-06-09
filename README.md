@@ -13,5 +13,10 @@ The portfolio is deployed to netlify, which can be found [here](https://morgan-c
 [Live Site](https://morgan-carmichael.netlify.app/)
 
 <!-- NEEDS UPDATE -->
-![Gif screenshot showing some features of the application](assets/images/readme-screenshot-1.gif) 
-![Gif screenshot showing additional features of the application](assets/images/readme-screenshot-2.gif)
+![screenshot showing the 'About Me' section](/src/assets/images/firefox_lhA0RWIBCq.png)
+
+![screenshot showing the 'Portfolio' section](/src/assets/images/firefox_ykg5q2PuBu.png)
+
+![screenshot showing the 'Portfolio' section at a narrower width](/src/assets/images/firefox_nodT1WDVda.png)
+
+![screenshot showing the 'Resume' section](/src/assets/images/firefox_kyG2AlZgIf.png)

@@ -14,8 +14,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header />
-        <Navigation />
+      <Header />
+      <Navigation />              
         <Routes>
           <Route exact path="/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
