@@ -5,10 +5,24 @@ import codeQuizRecording from '../../assets/images/code-quiz-recording.gif';
 import anythingEventsCalendar from '../../assets/images/anything-events-calendar.png';
 import coffeeOutlet from '../../assets/images/coffee-outlet.png';
 import passwordGeneratorShowcase from '../../assets/images/password-generator-showcase.gif';
+import mythWeaver from '../../assets/images/mythWeaver.png';
 
 const Portfolio = () => {
-  // Sample data for projects
   const projects = [
+    {
+      title: 'MythWeaver',
+      imageUrl: mythWeaver,
+      deployedUrl: 'https://myth-weaver.onrender.com',
+      githubUrl: 'https://github.com/Nihsad/myth-weaver',
+      description: `
+        <ul>
+          <li>Final group project for the Full-Stack Web Development course at the University of Denver.</li>
+          <li>An interactive storytelling platform featuring create-your-own-adventure-style stories.</li>
+          <li>Users can visit the main page to see up to 9 different stories randomly selected with the title, and brief description of the story. Once the user decides on the story, they will be taken to the stories page where you can see the author, ratings, genre, and tags. Then they can start their adventure. Users will need to log in to rate and bookmark stories, while it saves to their own user dashboard. Users can become authors and write their own stories, selecting a title, picture, description, genre, and tags to start. Once the author has started the story, they can add new chapters and options for readers.</li>
+          <li><b>Tools/Languages:</b> JavaScript, CSS, HTML5, Express.js, Node.js, React.js, Apollo Server, GraphQL, Nodemon, MongoDB, Render, Animate.css library</li>
+        </ul>
+      `
+    },
     {
       title: 'Anything Events Calendar',
       imageUrl: anythingEventsCalendar,  // Updated to use the imported image
