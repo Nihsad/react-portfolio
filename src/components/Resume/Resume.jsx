@@ -21,6 +21,7 @@ const Resume = () => {
         </p>
         <h4>Projects</h4>
         <ul>
+          <li><a href="https://myth-weaver.onrender.com" target="_blank" rel="noopener noreferrer">MythWeaver</a> - Front End Designer</li>
           <li><a href="https://nihsad.github.io/anything-events-calendar/index.html" target="_blank" rel="noopener noreferrer">Anything Events Calendar</a> - Front End Designer</li>
           <li><a href="https://coffee-outlet.onrender.com/" target="_blank" rel="noopener noreferrer">Coffee Outlet</a> - Front End Designer</li>
           <li><a href="https://nihsad.github.io/password-generator/" target="_blank" rel="noopener noreferrer">JavaScript Password Generator</a> - Developer</li>
@@ -53,6 +54,7 @@ const Resume = () => {
         <h4>Volunteer Work</h4>
         <p>
           <h5>Central Colorado Eventing | Ring Steward</h5>
+          <h6>April 2023 - current</h6>
           <ul>
             <li>Monitor the warm-up area of multiple show arenas</li>
             <li>Checking competitors in as they arrive to warm up and informing competitors when their ride time is approaching</li>
@@ -61,10 +63,10 @@ const Resume = () => {
         </p>
         <h4>Education</h4>
         <p>
-          <h5>University of Denver | Full-Stack Web Development Bootcamp</h5>
+          <h5>University of Denver | Full-Stack Web Development Certificate</h5>
           <h6>Dec 2023 - June 2024</h6>
           <ul>
-            <li>Comprehensive training in HTML, CSS, JavaScript, Node.js, Express.js, React, Sequelize, MongoDB, ORM, MVC, and various APIs.</li>
+            <li>The Full-Stack Web Development Bootcamp at the University of Denver is an intensive program that equips students with the skills necessary to build dynamic web applications. The program is focused on gaining technical programming skills in HTML5, CSS3, JavaScript, JQuery, Bootstrap, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS.</li>
           </ul>
         </p>
       </div>
